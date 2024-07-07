@@ -1,0 +1,308 @@
+/* Estilos Globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navegación */
+.navbar {
+    background-color: #ffffff; /* Color de fondo */
+    margin-bottom: 10px; /* Margen inferior para separar la navegación de la siguiente sección */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #333333; /* Color del texto */
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: #333333; /* Color del texto */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Color del texto al pasar el mouse */
+}
+
+/* Separación entre secciones */
+.section {
+    padding: 30px 0; /* Espacio vertical entre secciones */
+}
+
+
+/* Estilos para el Carousel */
+#inicio.carousel {
+    max-height: 600px; /* Altura máxima del carousel */
+    overflow: hidden; /* Ocultar cualquier contenido que exceda la altura */
+}
+
+#inicio .carousel-item img {
+    height: 500px; /* Altura de las imágenes dentro del carousel */
+    object-fit: cover; /* Ajustar la imagen para cubrir el espacio asignado */
+}
+
+#inicio .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el texto */
+    color: #ffffff; /* Color del texto */
+    position: absolute; /* Posición absoluta para superponer el texto sobre la imagen */
+    bottom: 10; /* Alinear el texto en la parte inferior */
+    width: 85%; /* Ancho completo */
+    padding: 10px; /* Espaciado interior */
+}
+
+/* Sección Nosotros */
+#nosotros h2 {
+    color: #1b2a3a; /* Color del título */
+}
+
+#nosotros p {
+    line-height: 1.6;
+}
+
+/* Sección Servicios */
+#servicios h2 {
+    color: #1b2a3a; /* Color del título */
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    line-height: 1.6;
+}
+
+#servicios .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#servicios .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Sección Estadísticas */
+#estadisticas h2 {
+    color: #1b2a3a; /* Color del título */
+}
+
+#estadisticas h3 {
+    color: #333333; /* Color del subtítulo */
+}
+
+/* Estilos para Planes y Tarifas */
+#planes-tarifas .card {
+    transition: transform 0.2s ease-in-out;
+}
+
+#planes-tarifas .card:hover {
+    transform: scale(1.05);
+}
+
+#planes-tarifas .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#planes-tarifas .card-body p {
+    margin: 0.5rem 0;
+}
+
+#planes-tarifas .btn {
+    margin-top: 1rem;
+}
+
+.stat-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 10px 0;
+    transition: transform 0.2s;
+}
+
+.stat-card:hover {
+    transform: scale(1.05);
+}
+
+.stat-card h5 {
+    font-size: 1.2rem;
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.stat-card p.stat-text {
+    font-size: 1rem;
+    color: #495057;
+}
+
+.stat-card i {
+    color: #007bff;
+    margin-right: 10px;
+}
+
+/* Sección FAQs */
+#faqs h2 {
+    color: #1b2a3a; /* Color del título */
+}
+
+/* Custom CSS */
+#contacto {
+    background-color: #f8f9fa;
+}
+
+#contacto h2 {
+    color: #343a40;
+}
+
+#contacto .form-control {
+    margin-bottom: 15px;
+}
+
+#contacto .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+#contacto .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+
+/* Footer */
+footer {
+    background-color: #f8f9fa; /* Color de fondo */
+    color: #1b2a3a; /* Color del texto */
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #1b2a3a; /* Color del enlace */
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #0056b3; /* Color del enlace al pasar el mouse */
+}
+
+
+/* Estilos para la sección de planificación de citas médicas */
+#citas-medicas {
+    margin-top: 5rem;
+    padding: 2rem 0;
+}
+
+#citas-medicas h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#citas-medicas .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#citas-medicas .col-md-6 {
+    margin-bottom: 2rem;
+}
+
+#citas-medicas .img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+#citas-medicas p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+#citas-medicas .scheduling-button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#citas-medicas .scheduling-button-wrapper a {
+    background-color: #1b2a3a;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+#citas-medicas .scheduling-button-wrapper a:hover {
+    background-color: #1b2a3a;
+}
+
+
+/* Estilos generales para la sección de contacto */
+#contact .row {
+    display: flex;
+    align-items: stretch; /* Alinea ambos elementos a la misma altura */
+}
+
+#contact .col-md-6 {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact iframe {
+    flex: 1; /* Ocupa todo el espacio vertical disponible */
+    border: 0; /* Elimina el borde del iframe */
+}
+
+#contact form {
+    flex: 1; /* Ocupa todo el espacio vertical disponible */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Espaciado uniforme entre los elementos */
+}
+
+#contact form label,
+#contact form input,
+#contact form textarea {
+    width: 100%; /* Ajusta al ancho completo del contenedor */
+    margin-bottom: 10px; /* Espaciado entre elementos */
+}
+
+#contact form button {
+    background-color: #1b2a3a; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    width: auto; /* Ancho automático según el contenido */
+    align-self: flex-end; /* Alinea el botón al final del contenedor */
+    padding: 5px 17px; /* Ajusta el padding del botón */
+    
+    font-size: 1.1rem;
+}
+
+/* Estilo para los botones del footer */
+#footer-buttons .btn {
+    background-color: #1b2a3a; /* Color de fondo */
+    transition: transform 0.2s ease; /* Transición suave */
+}
+
+/* Efecto de escala al pasar el mouse */
+#footer-buttons .btn:hover {
+    transform: scale(1.05); /* Escala del 105% al pasar el mouse */
+}
+
+/* Estilos para los botones flotantes */
+.floating-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+.floating-buttons a {
+    display: block;
+    margin-bottom: 8px;
+}
